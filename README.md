@@ -95,16 +95,16 @@ Users
 Books
 | Method  |  Endpoint                                |	Description                      |
 |---------|------------------------------------------|-----------------------------------|
-| GET     |  /api/v1//book/get-books                 |	List Books (Pagination, Search)  |
-| GET     |  /api/v1//book/get-book/:bookId          |	Get a Book with its Reviews      |
-| POST    |  /api/v1//book/add-book                  |	Add a New Book                   |
-| POST    |  /api/v1//book/get-book/:bookId/reviews  |  Post a Review about the Book     |
+| GET     |  /api/v1/book/get-books                  |	List Books (Pagination, Search)  |
+| GET     |  /api/v1/book/get-book/:bookId           |	Get a Book with its Reviews      |
+| POST    |  /api/v1/book/add-book                   |	Add a New Book                   |
+| POST    |  /api/v1/book/get-book/:bookId/reviews   |  Post a Review about the Book     |
 
 Reviews
-|  Method  |	Endpoint      |	Description              |
-|----------|----------------|--------------------------|
-|  PUT     |	/reviews/:id  |	Edit an Existing Review  |
-|  DELETE  |	/reviews/:id  |	Delete a Review          |
+|  Method  |	Endpoint             |	Description              |
+|----------|-----------------------|---------------------------|
+|  PUT     |	/api/v1/reviews/:id  |	Edit an Existing Review  |
+|  DELETE  |	/api/v1/reviews/:id  |	Delete a Review          |
 
 ## Database Schema
 
