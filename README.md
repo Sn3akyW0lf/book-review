@@ -69,15 +69,7 @@ DATABASE_HOST = 'localhost'
 TOKEN_SECRET =  '<Your Token Secret String>'
 ```
 
-4. Initialize Database
-
-Make sure MySQL is running. Then run:
-
-```bash
-npm run sync   # or use Sequelize CLI migrations if applicable
-```
-
-5. Start the App
+4. Start the App
 
 ```bash
 npm start
