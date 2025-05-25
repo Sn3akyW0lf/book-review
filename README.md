@@ -28,6 +28,7 @@ A simple full-stack web application where users can add books and post reviews f
 
 ## 📦 Project Structure
 
+```
 book-review-system/
 │
 ├── controllers/ # Route Logic (Books, Reviews, Users)
@@ -38,6 +39,7 @@ book-review-system/
 ├── util/ # Database Connection
 ├── app.js # Entry Point (Express app)
 └── README.md
+```
 
 ---
 
@@ -59,7 +61,7 @@ npm install
 
 Create a .env file:
 ```
-PORT = <Port Number of Your Choice >
+PORT = 3000
 DATABASE_NAME = 'jobportal'
 DATABASE_USERNAME= 'root'
 DATABASE_PASSWORD = '<your_password>'
@@ -81,7 +83,7 @@ npm run sync   # or use Sequelize CLI migrations if applicable
 npm start
 ```
 
-The app will run on http://localhost:<Provided Port Number>
+The app will run on http://localhost:3000
 
 🌐 API Endpoints
 Users
