@@ -58,13 +58,14 @@ npm install
 3. Configure Environment Variables -
 
 Create a .env file:
-
+```
 PORT = <Port Number of Your Choice >
 DATABASE_NAME = 'jobportal'
 DATABASE_USERNAME= 'root'
 DATABASE_PASSWORD = '<your_password>'
 DATABASE_HOST = 'localhost'
 TOKEN_SECRET =  '<Your Token Secret String>'
+```
 
 4. Initialize Database
 
@@ -84,21 +85,24 @@ The app will run on http://localhost:<Provided Port Number>
 
 🌐 API Endpoints
 Users
-Method	Endpoint	Description
-POST  /api/v1/auth/login  Login Endpoint
-POST  /api/v1/auth/signup  Signup Endpoint
+|  Method  |	Endpoint             |	Description      |
+|----------|-----------------------|-------------------|
+|  POST    |  /api/v1/auth/login   |  Login Endpoint   |
+|  POST    |  /api/v1/auth/signup  |  Signup Endpoint  |
 
 Books
-Method	Endpoint	Description
-GET	/api/v1//book/get-books	List Books (Pagination, Search)
-GET	/api/v1//book/get-book/:bookId	Get a Book with its Reviews
-POST /api/v1//book/add-book	Add a New Book
-POST  /api/v1//book/get-book/:bookId/reviews  Post a Review about the Book
+| Method  |  Endpoint                                |	Description                      |
+|---------|------------------------------------------|-----------------------------------|
+| GET     |  /api/v1//book/get-books                 |	List Books (Pagination, Search)  |
+| GET     |  /api/v1//book/get-book/:bookId          |	Get a Book with its Reviews      |
+| POST    |  /api/v1//book/add-book                  |	Add a New Book                   |
+| POST    |  /api/v1//book/get-book/:bookId/reviews  |  Post a Review about the Book     |
 
 Reviews
-Method	Endpoint	Description
-PUT	/reviews/:id	Edit an Existing Review
-DELETE	/reviews/:id	Delete a Review
+|  Method  |	Endpoint      |	Description              |
+|----------|----------------|--------------------------|
+|  PUT     |	/reviews/:id  |	Edit an Existing Review  |
+|  DELETE  |	/reviews/:id  |	Delete a Review          |
 
 ## Database Schema
 
