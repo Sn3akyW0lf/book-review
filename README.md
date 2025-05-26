@@ -62,7 +62,7 @@ npm install
 Create a .env file:
 ```
 PORT = 3000
-DATABASE_NAME = 'jobportal'
+DATABASE_NAME = 'book_review'
 DATABASE_USERNAME= 'root'
 DATABASE_PASSWORD = '<your_password>'
 DATABASE_HOST = 'localhost'
